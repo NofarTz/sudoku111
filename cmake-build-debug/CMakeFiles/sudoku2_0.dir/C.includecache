@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Rubit/CLionProjects/sudoku2.0/Game.h
+
+C:/Users/Rubit/CLionProjects/sudoku2.0/MainAux.c
+MainAux.h
+C:/Users/Rubit/CLionProjects/sudoku2.0/MainAux.h
+SPBufferset.h
+C:/Users/Rubit/CLionProjects/sudoku2.0/SPBufferset.h
+stdlib.h
+-
+
+C:/Users/Rubit/CLionProjects/sudoku2.0/MainAux.h
+Game.h
+C:/Users/Rubit/CLionProjects/sudoku2.0/Game.h
+
+C:/Users/Rubit/CLionProjects/sudoku2.0/SPBufferset.h
+stdio.h
+-
+

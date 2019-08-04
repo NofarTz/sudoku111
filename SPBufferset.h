@@ -13,4 +13,4 @@
 #define SP_BUFF_SET(){}
 #endif
 
-#endif /* SPBUFFERSET_H_ */
+#endif
