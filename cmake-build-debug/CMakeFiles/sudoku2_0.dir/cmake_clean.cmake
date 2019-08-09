@@ -3,7 +3,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/sudoku2_0.dir/Game.c.obj"
   "CMakeFiles/sudoku2_0.dir/MainAux.c.obj"
   "CMakeFiles/sudoku2_0.dir/gameTester.c.obj"
-  "CMakeFiles/sudoku2_0.dir/Solver.c.obj"
   "sudoku2_0.pdb"
   "sudoku2_0.exe"
   "sudoku2_0.exe.manifest"

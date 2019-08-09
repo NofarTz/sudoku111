@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Rubit/CLionProjects/sudoku2.0
+# Install script for directory: C:/Users/Ellie Arar/CLionProjects/sudoku6_0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Rubit/CLionProjects/sudoku2.0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Ellie Arar/CLionProjects/sudoku6_0/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

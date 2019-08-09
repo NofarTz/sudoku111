@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Rubit\CLionProjects\sudoku2.0
+CMAKE_SOURCE_DIR = "C:\Users\Ellie Arar\CLionProjects\sudoku6_0"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles" "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -176,33 +176,6 @@ MainAux.c.s:
 	$(MAKE) -f CMakeFiles\sudoku2_0.dir\build.make CMakeFiles/sudoku2_0.dir/MainAux.c.s
 .PHONY : MainAux.c.s
 
-Solver.obj: Solver.c.obj
-
-.PHONY : Solver.obj
-
-# target to build an object file
-Solver.c.obj:
-	$(MAKE) -f CMakeFiles\sudoku2_0.dir\build.make CMakeFiles/sudoku2_0.dir/Solver.c.obj
-.PHONY : Solver.c.obj
-
-Solver.i: Solver.c.i
-
-.PHONY : Solver.i
-
-# target to preprocess a source file
-Solver.c.i:
-	$(MAKE) -f CMakeFiles\sudoku2_0.dir\build.make CMakeFiles/sudoku2_0.dir/Solver.c.i
-.PHONY : Solver.c.i
-
-Solver.s: Solver.c.s
-
-.PHONY : Solver.s
-
-# target to generate assembly for a file
-Solver.c.s:
-	$(MAKE) -f CMakeFiles\sudoku2_0.dir\build.make CMakeFiles/sudoku2_0.dir/Solver.c.s
-.PHONY : Solver.c.s
-
 gameTester.obj: gameTester.c.obj
 
 .PHONY : gameTester.obj
@@ -272,9 +245,6 @@ help:
 	@echo ... MainAux.obj
 	@echo ... MainAux.i
 	@echo ... MainAux.s
-	@echo ... Solver.obj
-	@echo ... Solver.i
-	@echo ... Solver.s
 	@echo ... gameTester.obj
 	@echo ... gameTester.i
 	@echo ... gameTester.s

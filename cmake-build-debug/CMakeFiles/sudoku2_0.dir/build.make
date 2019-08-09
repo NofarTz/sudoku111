@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Rubit\CLionProjects\sudoku2.0
+CMAKE_SOURCE_DIR = "C:\Users\Ellie Arar\CLionProjects\sudoku6_0"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sudoku2_0.dir/depend.make
@@ -58,76 +58,62 @@ include CMakeFiles/sudoku2_0.dir/flags.make
 
 CMakeFiles/sudoku2_0.dir/main.c.obj: CMakeFiles/sudoku2_0.dir/flags.make
 CMakeFiles/sudoku2_0.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sudoku2_0.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\main.c.obj   -c C:\Users\Rubit\CLionProjects\sudoku2.0\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sudoku2_0.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\main.c.obj   -c "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\main.c"
 
 CMakeFiles/sudoku2_0.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sudoku2_0.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Rubit\CLionProjects\sudoku2.0\main.c > CMakeFiles\sudoku2_0.dir\main.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\main.c" > CMakeFiles\sudoku2_0.dir\main.c.i
 
 CMakeFiles/sudoku2_0.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sudoku2_0.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Rubit\CLionProjects\sudoku2.0\main.c -o CMakeFiles\sudoku2_0.dir\main.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\main.c" -o CMakeFiles\sudoku2_0.dir\main.c.s
 
 CMakeFiles/sudoku2_0.dir/Game.c.obj: CMakeFiles/sudoku2_0.dir/flags.make
 CMakeFiles/sudoku2_0.dir/Game.c.obj: ../Game.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sudoku2_0.dir/Game.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\Game.c.obj   -c C:\Users\Rubit\CLionProjects\sudoku2.0\Game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sudoku2_0.dir/Game.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\Game.c.obj   -c "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\Game.c"
 
 CMakeFiles/sudoku2_0.dir/Game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sudoku2_0.dir/Game.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Rubit\CLionProjects\sudoku2.0\Game.c > CMakeFiles\sudoku2_0.dir\Game.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\Game.c" > CMakeFiles\sudoku2_0.dir\Game.c.i
 
 CMakeFiles/sudoku2_0.dir/Game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sudoku2_0.dir/Game.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Rubit\CLionProjects\sudoku2.0\Game.c -o CMakeFiles\sudoku2_0.dir\Game.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\Game.c" -o CMakeFiles\sudoku2_0.dir\Game.c.s
 
 CMakeFiles/sudoku2_0.dir/MainAux.c.obj: CMakeFiles/sudoku2_0.dir/flags.make
 CMakeFiles/sudoku2_0.dir/MainAux.c.obj: ../MainAux.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sudoku2_0.dir/MainAux.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\MainAux.c.obj   -c C:\Users\Rubit\CLionProjects\sudoku2.0\MainAux.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sudoku2_0.dir/MainAux.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\MainAux.c.obj   -c "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\MainAux.c"
 
 CMakeFiles/sudoku2_0.dir/MainAux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sudoku2_0.dir/MainAux.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Rubit\CLionProjects\sudoku2.0\MainAux.c > CMakeFiles\sudoku2_0.dir\MainAux.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\MainAux.c" > CMakeFiles\sudoku2_0.dir\MainAux.c.i
 
 CMakeFiles/sudoku2_0.dir/MainAux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sudoku2_0.dir/MainAux.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Rubit\CLionProjects\sudoku2.0\MainAux.c -o CMakeFiles\sudoku2_0.dir\MainAux.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\MainAux.c" -o CMakeFiles\sudoku2_0.dir\MainAux.c.s
 
 CMakeFiles/sudoku2_0.dir/gameTester.c.obj: CMakeFiles/sudoku2_0.dir/flags.make
 CMakeFiles/sudoku2_0.dir/gameTester.c.obj: ../gameTester.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sudoku2_0.dir/gameTester.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\gameTester.c.obj   -c C:\Users\Rubit\CLionProjects\sudoku2.0\gameTester.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sudoku2_0.dir/gameTester.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\gameTester.c.obj   -c "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\gameTester.c"
 
 CMakeFiles/sudoku2_0.dir/gameTester.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sudoku2_0.dir/gameTester.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Rubit\CLionProjects\sudoku2.0\gameTester.c > CMakeFiles\sudoku2_0.dir\gameTester.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\gameTester.c" > CMakeFiles\sudoku2_0.dir\gameTester.c.i
 
 CMakeFiles/sudoku2_0.dir/gameTester.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sudoku2_0.dir/gameTester.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Rubit\CLionProjects\sudoku2.0\gameTester.c -o CMakeFiles\sudoku2_0.dir\gameTester.c.s
-
-CMakeFiles/sudoku2_0.dir/Solver.c.obj: CMakeFiles/sudoku2_0.dir/flags.make
-CMakeFiles/sudoku2_0.dir/Solver.c.obj: ../Solver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sudoku2_0.dir/Solver.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sudoku2_0.dir\Solver.c.obj   -c C:\Users\Rubit\CLionProjects\sudoku2.0\Solver.c
-
-CMakeFiles/sudoku2_0.dir/Solver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sudoku2_0.dir/Solver.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Rubit\CLionProjects\sudoku2.0\Solver.c > CMakeFiles\sudoku2_0.dir\Solver.c.i
-
-CMakeFiles/sudoku2_0.dir/Solver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sudoku2_0.dir/Solver.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Rubit\CLionProjects\sudoku2.0\Solver.c -o CMakeFiles\sudoku2_0.dir\Solver.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\gameTester.c" -o CMakeFiles\sudoku2_0.dir\gameTester.c.s
 
 # Object files for target sudoku2_0
 sudoku2_0_OBJECTS = \
 "CMakeFiles/sudoku2_0.dir/main.c.obj" \
 "CMakeFiles/sudoku2_0.dir/Game.c.obj" \
 "CMakeFiles/sudoku2_0.dir/MainAux.c.obj" \
-"CMakeFiles/sudoku2_0.dir/gameTester.c.obj" \
-"CMakeFiles/sudoku2_0.dir/Solver.c.obj"
+"CMakeFiles/sudoku2_0.dir/gameTester.c.obj"
 
 # External object files for target sudoku2_0
 sudoku2_0_EXTERNAL_OBJECTS =
@@ -136,12 +122,11 @@ sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/main.c.obj
 sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/Game.c.obj
 sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/MainAux.c.obj
 sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/gameTester.c.obj
-sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/Solver.c.obj
 sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/build.make
 sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/linklibs.rsp
 sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/objects1.rsp
 sudoku2_0.exe: CMakeFiles/sudoku2_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable sudoku2_0.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable sudoku2_0.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sudoku2_0.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +139,6 @@ CMakeFiles/sudoku2_0.dir/clean:
 .PHONY : CMakeFiles/sudoku2_0.dir/clean
 
 CMakeFiles/sudoku2_0.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Rubit\CLionProjects\sudoku2.0 C:\Users\Rubit\CLionProjects\sudoku2.0 C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug C:\Users\Rubit\CLionProjects\sudoku2.0\cmake-build-debug\CMakeFiles\sudoku2_0.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Ellie Arar\CLionProjects\sudoku6_0" "C:\Users\Ellie Arar\CLionProjects\sudoku6_0" "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug" "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug" "C:\Users\Ellie Arar\CLionProjects\sudoku6_0\cmake-build-debug\CMakeFiles\sudoku2_0.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/sudoku2_0.dir/depend
 

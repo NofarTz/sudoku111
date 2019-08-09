@@ -12,14 +12,41 @@ typedef struct {
     int *options;
     int marked;
 } Cell;
+
+typedef struct {
+    int row;
+    int col;
+
+} SInfo;
+
+struct StackNode  {
+    SInfo info;
+    struct StackNode *next;
+};
+
+typedef struct {
+    struct StackNode* top;
+} Stack;
+
+
+
+typedef struct {
+    int row;
+    int col;
+    int PrevValuel;
+    int newValuel;
+} Info;
+
+
 struct Action  {
     enum Command command;
-    int *arg;
+    Info info;
+    int end;
+    int start;
     struct Action *next;
     struct Action *prev;
 
 };
-
 
 
 typedef struct {
@@ -34,10 +61,11 @@ typedef struct {
      * mode == 2 - solve mode
      */
     int mode;
-    struct Action actions;
+    struct Action *actionStart;
     struct Action *actionP;
 }Board;
-
+void reset(Board *gameBoard);
+void freeEndOfTheList(struct Action *newAction);
 void copyBoard(Board *gameBoard, Board* copy, int m, int n);
 int valid(Board *b, int row, int col);
 int singleValidValue(Board *b, int row, int col, int m, int n);
@@ -49,10 +77,12 @@ void unMarkBoard(Board *b);
 void mark_errors(Board *b, int x);
 int save(Board *b,  char *path);
 int intializeEmptyBoard(Board* b);
-void set(int x, int y, int z, Board *gameBoard,int m,int n);
+void set(int x, int y, int z, Board *gameBoard);
 int isErroneous(Board *b);
 int edit(Board *b, char *path);
 void tmp(char *path);
+void redo(Board *gameBoard);
+void undo(Board *gameBoard, int print);
 
 /*
  * getters and setters

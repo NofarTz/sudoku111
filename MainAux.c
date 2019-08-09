@@ -42,7 +42,9 @@ void ErrorPrinting(enum Errors error, char funcName[]) {
 
 }
 
-void print_board(Board *b, int m, int n){
+void print_board(Board *b){
+    int m=b->m;
+    int n=b->n;
     int i=0,row=0,col=0;
     SP_BUFF_SET()
     ;
@@ -73,9 +75,9 @@ void print_board(Board *b, int m, int n){
             }
             else {
                 if (getValue(b, row, col) == 0) {
-                    printf("  ");
+                    printf("   ");
                 } else {
-                    printf(" %2d", getValue(b, row, col));
+                    printf("%2d ", getValue(b, row, col));
                 }
             }
             if (col % 3 == 2) {

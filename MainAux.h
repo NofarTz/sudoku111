@@ -18,6 +18,6 @@ enum Errors {
     INVALIDBOARD
 };
 void ErrorPrinting(enum Errors error, char funcName[]);
-void print_board(Board *b, int m, int n);
+void print_board(Board *b);
 int callocFailed(char funcName[], void* arr);
 #endif
